@@ -1,0 +1,39 @@
+REQUISITOS
+1 - Não aceita email
+2 - Primeiro contato via telefone
+3 - quem está ligando, departamento, sintoma, quem está atendendo, classificação (redes, segurança, infra...), numero de protocolo
+4 - SLA - em cima de data hora inicial e final
+5 - Historico de cada area que atendeu o problema do usuario
+6 - tempo medio gasto por area de atendimento
+7 - avaliação do chamado no final
+8 - desenvolvimento multiplataforma
+9 - 7 atendentes, 5 primeiro nivel
+
+Atendente -> 1 nivel -> areas especificas
+
+HISTORIA	
+	A empresa X deseja um software que soluciona necessidades do usuario , onde o primeiro contato é via telefone , não aceitando email's como ocorrência.
+	No contato com o usuario é informado , qual o usuario que esta fazendo esta solicitação, o seu departamento e os sintomas apresentado pelo usuario, 
+	Apos este contato é passado um protocolo para o usuario para ele poder acompanhar a solicitação.
+	Após atendimento realizado, a solicitação é encaminhada para os funcionarios de primeiro nivel, caso eles não consigam resolver a solicitação é encaminhada para a area responsavel.
+	Após a manutenção necessaria o usuario recebe uma notificação e pode dar uma nota para o atendimento.
+	O responsavel pela area pode gerar relatorios baseado em areas que mais demandaram solicitações, SLA (tempo medio entre abertura e fechamento do chamado).
+	O sistema deve ser multiplataforma (funcionando em mobile, tablets e desktops) para melhorar a visibilidade do usuario e atendente.
+
+
+HISTORIA 2.0
+
+identificação -> registro -> categorização -> Requisição? -> Priorização -> Grave? -> Diagnostico inicial - > necessario escalar -> investigação e diagnostico -> resolução -> fechamento -> fim
+
+Usuario entra em contato com o service desk.
+A solicitação é registrada e é informado o numero de protoloco
+O usuario informa cpf(caso tenha um banco de dados de usuario), departamento e o sintoma
+Atendente aplica questionario para tentar definir nivel de prioridade do chamado.
+Apos esse levantamento o chamado é encaminhado para a equipe de primeiro Nivel
+Quando a equipe de primeiro nivel chegar no chamado com base no nivel de prioridade / urgencia, inicia o atendimento.
+Equipe de primeiro nivel dá primeira resposta ao chamado, caso não resolva o chamado, ele repassa a area responsavel (exemplo Infra, DB...)
+Area responsavel resolve o chamado ou pode repassar para uma nova area caso a solicitação não pertença a area dele.
+Apos o chamado ser resolvido é avisado ao usuario e ele pode avaliar o atendimento.
+Gerente/Diretor pode pegar relatorios no sistema, por exemplo areas que mais demandam solicitações, se o tempo de atendimento está dentro do SLA.
+O sistema deve ser multiplataforma, o atendente pode responder o chamado por telefone/tablets/desktop, assim como o usuario consegue acompanhar suas solicitações.
+
