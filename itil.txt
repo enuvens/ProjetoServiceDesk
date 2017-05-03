@@ -1,0 +1,48 @@
+Service Desk vs Help Desk
+
+O service desk é uma evolução do help desk, foi feito para solucionar problemas mais complexos como por exemplo queda ou problema de um servidor.
+
+
+
+ITIL - Gestão de Incidentes
+O Gerenciamento de Incidentes tem como foco principal restabeler o serviço o mais rápido possível minimizando o impacto negativo no negócio...
+
+
+Incidentes: Qualquer evento que não seja parte da operação padrão de um serviço e que causa, ou pode causar, uma interrupção ou redução na qualidade daquele serviço;
+
+·         Requisição de Serviços: É tratada como uma categoria de incidente que não provoca interrupção ou falha na infra-estrutura de TI. Exemplo: Solicitação de informação e/ou documentação;
+
+·         Posição no fluxo de trabalho: O status do incidente, reflete sua situação atual no ciclo de vida;
+
+·         Carga de Trabalho: Tempo ou esforço gasto em qualquer parte da resolução do incidente.
+
+PRIORIDADE é definido em função do impacto que o incidente terá sobre os negocios da organização. A razão entre urgencia para resolução do incidente mais o impacto do incidente nos negocios, e o eefeito provocado pelo incidente nos prazos das atividades define a priorização dos incidentes. Varia de empresa para empresa
+
+URGENCIA vs IMPACTO
+matriz de classificação dos incidentes com relação as prioridades para realização dos serviços de suporte
+
+Prioridade: De modo geral é medido pelo impacto sobre o negócio e na urgência também pode ser definido as ANS’s( acordo de nível de serviço);
+
+·         Impacto: Grau em que a provisão de serviço é interrompido;
+
+·         Urgência: Prioridade em que o incidente deve ser resolvido;
+
+·         Esforço Esperado: Quantidade de esforço para restaurar o serviço;
+
+·         Escalada: Mecanismo que oferece a resolução adequada de um incidente;
+
+·         Funcional: O chamado é escalonado para um segundo nível;
+
+·         Hierárquico: Utilizado quando existir a possibilidade de que o chamado não seja atendido no prazo;
+
+·         Detecção de Incidentes e Registros: Registrar informações básicas do incidente;
+
+·         Classificação e Suporte Inicial: Classificar, comparar, priorizar, fornercer suporte inicial (resolução rápida);
+
+·         Investigação e Diagnóstico: Avaliação do incidente e solução de contorno;
+
+·         Resolução e Recuperação: Resolver o incidente ou elaborar uma requisição de Mudança (RM) e tomar ações corretivas;
+
+·         Fechamento do Incidente: Verificar junto ao cliente se o chamado foi atendido e resolvido e comunicar o fechamento;
+
+·         Prioridade, Monitoração, Acompanhamento e Comunicação.
